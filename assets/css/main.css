@@ -5,3 +5,19 @@ height: 200px;
 #intro{
     background-color: lightblue;
 }
+ .jumbotron {
+     height: 500px;
+    
+ }
+
+body, .jumbotron, div, h1, h2, h3, p, ul, img, form, fieldset, input, textarea {
+    margin:0;
+    padding:0;
+    border:0;
+
+}
+
+body {
+    background: 
+    font:
+}
