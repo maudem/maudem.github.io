@@ -30,7 +30,7 @@ nav {
 
 #container {
     width: 960px;
-    margin: 0 auto;
+    
 }
 
 #logo {
@@ -39,6 +39,22 @@ nav {
     width: 183px;
 }
 
-img {
-float: right;
+#profilePic {
+ border-bottom-color: lightsteelblue;
 }
+/* .grid {
+    display: grid;
+    grid-template-columns: 75px;
+    grid-template-rows: 75px;
+
+    color: lightblue;
+    padding: 0px;
+} */
+
+img {
+    size: 20px, 20px;
+}
+.box {
+        border-color: lightcoral;
+        border-width: 2px;
+    }
