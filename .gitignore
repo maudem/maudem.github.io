@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+=======
+node_modules
+DS_Store
+>>>>>>> 6f4056841997e02c7a6a7c7024b486e757822e17

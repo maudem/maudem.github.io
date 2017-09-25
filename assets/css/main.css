@@ -52,9 +52,10 @@ nav {
 } */
 
 img {
-    size: 20px, 20px;
+    max-width: 20px, 20px;
 }
-.box {
+ /* .box {
         border-color: lightcoral;
         border-width: 2px;
-    }
+        width: 33.3333%;
+    }  */
