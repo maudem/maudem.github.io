@@ -1,22 +1,33 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
 img {
 height: 200px;
 }
 
-#intro{
-    background-color: lightblue;
+ * {
+    box-sizing: border-box;
 }
- .jumbotron {
-    height: 670px;
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+}
+ .jumbotron{
+    height: 100vh;
+    width: 100%;
     background: url("../images/backgrounds/workspace.jpeg") no-repeat center;
     background-size: cover;
-    justify-content: center;
-    margin:0px;
-    padding:0px;
-    border:0px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column; 
  }
-
-
-    
 
 body h1 {
     
@@ -52,9 +63,10 @@ nav {
 } */
 
 img {
-    size: 20px, 20px;
+    max-width: 20px, 20px;
 }
-.box {
+ /* .box {
         border-color: lightcoral;
         border-width: 2px;
-    }
+        width: 33.3333%;
+    }  */
