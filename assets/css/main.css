@@ -3,10 +3,6 @@ body {
     overflow-x: hidden;
 }
 
-img {
-height: 200px;
-}
-
  * {
     box-sizing: border-box;
 }
@@ -17,9 +13,18 @@ height: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 15px 15px;
+    padding: 5px 5px;
+    z-index: 2;
+
+    background-color: lightblue;
+}
+
+.navbar a {
+    padding: 5px;
+    color: black;
 }
  .jumbotron{
+    font-family: 'Open Sans', sans-serif;
     height: 100vh;
     width: 100%;
     background: url("../images/backgrounds/workspace.jpeg") no-repeat center;
@@ -27,6 +32,20 @@ height: 200px;
     margin-bottom: 0;
     display: flex;
     flex-direction: column; 
+ }
+ .jumbotron {
+     text-align: center;
+ }
+
+ .jumbotron-text h1{
+     font-weight: 400;
+     font-size: 5em;
+ }
+
+ .jumbotron p {
+    font-size: 2em;
+    color:#343C44;
+    text-shadow: #3C4650
  }
 
 body h1 {
@@ -39,15 +58,11 @@ nav {
     display: block !important;
 }
 
-#container {
-    width: 960px;
-    
-}
-
-#logo {
+#logo img{
     margin: 10px auto 0 auto;
-    position: relative;
-    width: 183px;
+    justify-content: center;
+    width: 100px;
+    height:100px;
 }
 
 #profilePic {
@@ -61,6 +76,10 @@ nav {
     color: lightblue;
     padding: 0px;
 } */
+
+img {
+height: 200px;
+}
 
 img {
     max-width: 20px, 20px;
