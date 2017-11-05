@@ -38,6 +38,7 @@ body {
  }
 
  .jumbotron-text h1{
+     font-family: 'Megrim', cursive;
      font-weight: 400;
      font-size: 5em;
  }
@@ -48,9 +49,9 @@ body {
     text-shadow: #3C4650
  }
 
-body h1 {
-    
-    font-family: 'Megrim', cursive;
+h2, h3{
+    font-family: 'Open Sans', sans-serif;
+    align-content: center;
 }
 
 nav {
@@ -67,15 +68,20 @@ nav {
 
 #profilePic {
  border-bottom-color: lightsteelblue;
-}
-/* .grid {
-    display: grid;
-    grid-template-columns: 75px;
-    grid-template-rows: 75px;
 
-    color: lightblue;
-    padding: 0px;
-} */
+}
+
+#about {
+    display: inline-block;
+    justify-content: center;
+
+    padding:20px 40px 60px;
+    border-bottom: 2px;
+}
+
+#about p {
+    text-align: center;
+}
 
 img {
 height: 200px;
@@ -84,8 +90,28 @@ height: 200px;
 img {
     max-width: 20px, 20px;
 }
- /* .box {
-        border-color: lightcoral;
-        border-width: 2px;
-        width: 33.3333%;
-    }  */
+
+
+/* Skills */
+#myskills {
+    margin: 10em, 2em;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+.skill-item {
+    text-align: center;
+    padding-left: 0;
+}
+
+.skill-item li {
+    display: inline-flex;
+    margin:  7px;
+    padding: 5px 10px;
+    color: white;
+    background: lightblue;
+    /* list-style: none;
+    cursor: default; */
+    font-size: 1.2em;
+}
