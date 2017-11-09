@@ -127,6 +127,11 @@ img {
 	align-content: space-around;
 }
 
+.card {
+	margin: 1%;
+	padding: 1%;
+}
+
 .card-footer {
 	display: flex;
 	justify-content: space-between;
