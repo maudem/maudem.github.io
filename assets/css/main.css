@@ -119,6 +119,12 @@ img {
 	font-size: 1.2em;
 }
 
+#portfolio {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-around;
+}
+
 div.footer {
 	justify-content: center;
 	text-align: center;
