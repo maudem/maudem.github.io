@@ -1,117 +1,118 @@
 body {
-    margin: 0;
-    overflow-x: hidden;
+	margin: 0;
+	overflow-x: hidden;
 }
 
- * {
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
 
 .navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 5px 5px;
-    z-index: 2;
+	position: fixed;
+	top: 0;
+	width: 101%;
+	display: flex;
+	justify-content: center;
+	padding: 5px 5px;
+	z-index: 2;
 
-    background-color: lightblue;
+	background-color: lightblue;
 }
 
 .navbar a {
-    padding: 5px;
-    color: black;
+	padding: 5px;
+	color: black;
 }
- .jumbotron{
-    font-family: 'Open Sans', sans-serif;
-    height: 100vh;
-    width: 100%;
-    background: url("../images/backgrounds/workspace.jpeg") no-repeat center;
-    background-size: cover;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column; 
- }
- .jumbotron {
-     text-align: center;
- }
 
- .jumbotron-text h1{
-     font-family: 'Megrim', cursive;
-     font-weight: 400;
-     font-size: 5em;
- }
+.jumbotron {
+	font-family: 'Open Sans', sans-serif;
+	height: 100vh;
+	width: 100%;
+	background: url("../images/backgrounds/workspace.jpeg") no-repeat center;
+	background-size: cover;
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+}
 
- .jumbotron p {
-    font-size: 2em;
-    color:#343C44;
-    text-shadow: #3C4650
- }
+.jumbotron {
+	text-align: center;
+}
+
+.jumbotron-text h1{
+	font-family: 'Megrim', cursive;
+	font-weight: 400;
+	font-size: 5em;
+}
+
+.jumbotron p {
+	font-size: 2em;
+	color:#343C44;
+	text-shadow: #3C4650
+}
 
 h2, h3{
-    font-family: 'Open Sans', sans-serif;
-    align-content: center;
+	font-family: 'Open Sans', sans-serif;
+	align-content: center;
 }
 
 nav {
-    float: right;
-    display: block !important;
+	float: right;
+	display: block !important;
 }
 
 #logo img{
-    margin: 10px auto 0 auto;
-    justify-content: center;
-    width: 100px;
-    height:100px;
+	margin: 10px auto 0 auto;
+	justify-content: center;
+	width: 100px;
+	height:100px;
 }
 
 #profilePic {
- border-bottom-color: lightsteelblue;
+	border-bottom-color: lightsteelblue;
 
 }
 
 #about {
-    display: inline-block;
-    justify-content: center;
+	display: inline-block;
+	justify-content: center;
 
-    padding:20px 40px 60px;
-    border-bottom: 2px;
+	padding:20px 40px 60px;
+	border-bottom: 2px;
 }
 
 #about p {
-    text-align: center;
+	text-align: center;
 }
 
 img {
-height: 200px;
+	height: 200px;
 }
 
 img {
-    max-width: 20px, 20px;
+	max-width: 20px, 20px;
 }
-
 
 /* Skills */
 #myskills {
-    margin: 10em, 2em;
-    display: inline-flex;
-    justify-content: space-between;
-    
+	margin: 10em, 2em;
+	display: inline-flex;
+	justify-content: space-between;
+
 }
 
 .skill-item {
-    text-align: center;
-    padding-left: 0;
+	text-align: center;
+	padding-left: 0;
 }
 
 .skill-item li {
-    display: inline-flex;
-    margin:  7px;
-    padding: 5px 10px;
-    color: white;
-    background: lightblue;
-    /* list-style: none;
-    cursor: default; */
-    font-size: 1.2em;
+	display: inline-flex;
+	margin:  7px;
+	padding: 5px 10px;
+	color: white;
+	background: lightblue;
+	/* list-style: none;
+	cursor: default; */
+	font-size: 1.2em;
 }
