@@ -103,12 +103,13 @@ img {
 }
 
 .skill-item {
-	text-align: center;
-	padding-left: 0;
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
 }
 
 .skill-item li {
-	display: inline-flex;
 	margin:  7px;
 	padding: 5px 10px;
 	color: white;
