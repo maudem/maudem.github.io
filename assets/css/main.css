@@ -126,7 +126,7 @@ img {
 	margin: 10em, 2em;
 	display: flex;
 	flex-flow: row wrap;
-	align-content: space-around;
+	justify-content: space-evenly;
 }
 
 .card {
