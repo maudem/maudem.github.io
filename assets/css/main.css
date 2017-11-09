@@ -107,6 +107,7 @@ img {
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	align-content: flex-start;
+	margin: 2%;
 }
 
 .skill-item li {
