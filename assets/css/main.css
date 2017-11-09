@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 0px;
 	overflow-x: hidden;
 }
 
@@ -10,7 +10,7 @@ body {
 .navbar{
 	position: fixed;
 	top: 0;
-	width: 101%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	padding: 5px 5px;
