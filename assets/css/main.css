@@ -123,6 +123,7 @@ img {
 }
 
 #portfolio {
+	margin: 10em, 2em;
 	display: flex;
 	flex-flow: row wrap;
 	align-content: space-around;
