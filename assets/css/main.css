@@ -110,6 +110,7 @@ img {
 }
 
 .skill-item li {
+	list-style-type: none;
 	margin:  7px;
 	padding: 5px 10px;
 	color: white;
