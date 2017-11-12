@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 0px;
+    padding: 20px;
     overflow-x: hidden;
 }
 
@@ -7,13 +8,16 @@ body {
     box-sizing: border-box;
 }
 
+/* navbar */
+
 .navbar{
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    padding: 5px 5px;
+    padding: 20px 40px 60px;
+    border-bottom: 2px;
     z-index: 2;
 
     background-color: lightblue;
@@ -23,6 +27,8 @@ body {
     padding: 5px;
     color: black;
 }
+
+/* intro */
  .jumbotron{
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
@@ -32,9 +38,7 @@ body {
     margin-bottom: 0;
     display: flex;
     flex-direction: column; 
- }
- .jumbotron {
-     text-align: center;
+    text-align: center;
  }
 
  .jumbotron-text h1{
@@ -52,11 +56,6 @@ body {
 h2, h3{
     font-family: 'Open Sans', sans-serif;
     align-content: center;
-}
-
-nav {
-    float: right;
-    display: block !important;
 }
 
 #logo img{
@@ -85,33 +84,39 @@ nav {
 
 img {
 height: 200px;
+max-width: 20px, 20px;
 }
-
-img {
-    max-width: 20px, 20px;
-}
-
 
 /* Skills */
 #myskills {
     margin: 10em, 2em;
     display: inline-flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     
 }
 
 .skill-item {
-    text-align: center;
-    padding-left: 0;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 2%;
 }
 
 .skill-item li {
-    display: inline-flex;
     margin:  7px;
     padding: 5px 10px;
     color: white;
     background: lightblue;
-    /* list-style: none;
-    cursor: default; */
+    list-style: none;
+    cursor: default;
     font-size: 1.2em;
 }
+
+#portfolio {
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
