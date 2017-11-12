@@ -1,11 +1,11 @@
 body {
-    margin: 0px;
-    padding: 20px;
-    overflow-x: hidden;
+	margin: 0px;
+	padding: 20px;
+	overflow-x: hidden;
 }
 
- * {
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
 
 /* navbar */
@@ -54,64 +54,92 @@ body {
  }
 
 h2, h3{
-    font-family: 'Open Sans', sans-serif;
-    align-content: center;
+	font-family: 'Open Sans', sans-serif;
+	align-content: center;
 }
 
 #logo img{
-    margin: 10px auto 0 auto;
-    justify-content: center;
-    width: 100px;
-    height:100px;
+	margin: 10px auto 0 auto;
+	justify-content: center;
+	width: 100px;
+	height:100px;
 }
 
 #profilePic {
- border-bottom-color: lightsteelblue;
+	border-bottom-color: lightsteelblue;
 
 }
 
 #about {
-    display: inline-block;
-    justify-content: center;
+	display: inline-block;
+	justify-content: center;
 
-    padding:20px 40px 60px;
-    border-bottom: 2px;
+	padding:20px 40px 60px;
+	border-bottom: 2px;
 }
 
 #about p {
-    text-align: center;
+	text-align: center;
 }
 
 img {
-height: 200px;
-max-width: 20px, 20px;
+    height: 200px;
+    max-width: 20px, 20px;
 }
+
 
 /* Skills */
 #myskills {
-    margin: 10em, 2em;
-    display: inline-flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    
+	margin: 10em, 2em;
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
 }
 
 .skill-item {
-    display: inline-flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    margin: 2%;
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	margin: 2%;
 }
 
 .skill-item li {
-    margin:  7px;
-    padding: 5px 10px;
-    color: white;
-    background: lightblue;
-    list-style: none;
-    cursor: default;
-    font-size: 1.2em;
+	list-style-type: none;
+	margin:  7px;
+	padding: 5px 10px;
+	color: white;
+	background: lightblue;
+	/* list-style: none;
+	cursor: default; */
+	font-size: 1.2em;
+}
+
+#portfolio {
+	margin: 10em, 2em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.card {
+	margin: 1%;
+	padding: 1%;
+}
+
+.card-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.footer {
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
 }
 
 #portfolio {
