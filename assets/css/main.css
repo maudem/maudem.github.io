@@ -123,7 +123,7 @@ img {
 }
 
 /* portfolio cards */
-#portfolio {
+#projects {
 	margin: 10em, 2em;
 	display: flex;
 	flex-flow: row wrap;
