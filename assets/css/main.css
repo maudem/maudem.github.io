@@ -147,6 +147,39 @@ img {
 	justify-content: space-between;
 }
 
+/* contact */
+#contact{
+	display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.form-label {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .5s ease top, .5s ease opacity;
+	transition: .5s ease top, .5s ease opacity;
+}
+
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+	border-width: 0 0 2px 0;
+}
+
+.form-control:focus {
+	border-color: #5e9bfc;
+}
+
+textarea {
+	resize: none;
+}
+
+
+/* footer */
 div.footer {
 	justify-content: center;
 	text-align: center;
