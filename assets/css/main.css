@@ -148,12 +148,14 @@ img {
 }
 
 /* contact */
-#contact{
-	display: flex;
-    flex-direction: column; 
-    justify-content: center;
+#contact.h2{
+	text-align: center;
 }
 
+#form {
+	justify-content: center;
+
+}
 .form-label {
 	font-size: 12px;
 	color: #5e9bfc;
