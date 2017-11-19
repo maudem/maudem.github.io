@@ -7,7 +7,9 @@ body {
 }
 
 /* navbar */
-
+h2 {
+	text-align: center;
+}
 .navbar{
     position: fixed;
     top: 0;
@@ -67,6 +69,10 @@ h2, h3{
 	padding: 20px;
 }
 
+.panel {
+	padding: 40px;
+	margin-top: 20px;
+}
 
 /* About */
 #profilePic {
@@ -89,10 +95,6 @@ h2, h3{
 img {
     height: 200px;
 }
-img {
-    max-width: 20px, 20px;
-}
-
 
 /* Skills */
 #myskills {
@@ -148,6 +150,13 @@ img {
 }
 
 /* contact */
+#contact {
+	justify-content: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
 #contact.h2{
 	text-align: center;
 }
@@ -183,14 +192,20 @@ textarea {
 
 /* footer */
 div.footer {
+	
 	justify-content: center;
 	text-align: center;
 	width: 100%;
+	height: 20%;
 	margin-left: auto;
 	margin-right: auto;
 	clear: both;
+	padding: 40px;
 }
 
+#copyright img {
+	max-height: 20px;
+}
 /* #portfolio {
     display: inline-flex;
     flex-direction: row;
