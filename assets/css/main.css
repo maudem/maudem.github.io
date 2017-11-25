@@ -1,5 +1,6 @@
 body {
 	overflow-x: hidden;
+	background-color: #FCDDBC;
 }
 
 * {
@@ -77,13 +78,13 @@ h2, h3{
 /* About */
 #profilePic {
 	border-bottom-color: lightsteelblue;
+	border: solid thick black;
 
 }
 
 #about {
 	display: inline-block;
 	justify-content: center;
-
 	padding:20px 40px 60px;
 	border-bottom: 2px;
 }
@@ -93,7 +94,7 @@ h2, h3{
 }
 
 img {
-    height: 200px;
+    height: 200px, 200px;
 }
 
 /* Skills */
@@ -201,6 +202,8 @@ div.footer {
 	margin-right: auto;
 	clear: both;
 	padding: 40px;
+	background-color: #1F2041;
+	color: #FEF8F2; 
 }
 
 #copyright img {
