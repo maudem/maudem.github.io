@@ -1,6 +1,6 @@
 body {
 	overflow-x: hidden;
-	background-color: #FCDDBC;
+	background-color: rgba(248, 217, 186, 0.582);
 }
 
 * {
@@ -87,6 +87,7 @@ h2, h3{
 	justify-content: center;
 	padding:20px 40px 60px;
 	border-bottom: 2px;
+	background: url("https://www.freepik.com/free-vector/vector-flower-seamless-pattern-background-elegant-texture-for-backgrounds-classical-luxury-old-fashioned-floral-ornament-seamless-texture-for-wallpapers-textile-wrapping_1283576.htm") no-repeat center;
 }
 
 #about p {
@@ -202,8 +203,8 @@ div.footer {
 	margin-right: auto;
 	clear: both;
 	padding: 40px;
-	background-color: #1F2041;
-	color: #FEF8F2; 
+	background-color: lightblue;
+	color: black; 
 }
 
 #copyright img {
