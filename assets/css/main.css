@@ -3,8 +3,11 @@
 body {
 	overflow-x: hidden;
 	background-color: rgb(255, 254, 255);
+	color:#031927;
 }
-
+.btn {
+	background-color:#256EFF;
+}
 * {
 	box-sizing: border-box;
 }
@@ -13,7 +16,8 @@ body {
 }
 .innerPg h2 {
 	text-align:center;
-	color:#039be5;
+	color:#031927;
+	font-weight: 700;
 }
 .innerPg p{
 	font-size:1.64rem;
@@ -186,8 +190,10 @@ section svg {
 	justify-content: center;
 
 }
+
 .form-label {
-	font-size: 12px;
+	font-size: 20px;
+	font-weight:700;
 	color: #5e9bfc;
 	margin: 0;
 	display: block;
@@ -197,9 +203,10 @@ section svg {
 }
 
 .form-control {
+	
 	border-radius: 0;
-	border-color: #ccc;
-	border-width: 0 0 2px 0;
+	border-color: #5e5e5e;
+	border-width: 0 0 4px 0;
 }
 
 .form-control:focus {
@@ -209,7 +216,10 @@ section svg {
 textarea {
 	resize: none;
 }
+ .social img {
+	width:50px;
 
+}
 
 /* footer */
 div.footer {
