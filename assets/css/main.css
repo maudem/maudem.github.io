@@ -52,15 +52,25 @@ nav .brand-logo img{
 .material-icons {
 	color:#031927;
 }
+.upper-padding{
+	padding-top: 50px;
+}
 @media (max-width:730px) {
+	h4 {
+		font-size: 1.5rem;
+	}
 	nav .brand-logo {
 		font-size:35px;
 		line-height:30px;
 	}
 	.intro {
 		font-size: 20px;
+	}
+	.hide-for-small{
+		display: hide;
 	}	
 }
+
 /* ----Home---- */
 
 #home-mains {
@@ -262,6 +272,7 @@ div.footer {
 }
 
 .copyright img, i {
+	font-size: 20px;
 	max-height: 20px;
 	vertical-align: middle;
 }
@@ -409,7 +420,6 @@ html, body {
   }
   .mdl-demo section.section--footer .section__circle--big {
 	width: 100px;
-	height: 100px;
 	border-radius: 50px;
 	margin: 8px 32px;
   }
