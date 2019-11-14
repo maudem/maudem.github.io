@@ -68,6 +68,10 @@ nav .brand-logo img{
 	}
 	.hide-for-small{
 		display: hide;
+	}
+	.contact-panel {
+		padding: 20px;
+		margin-top: 0px;
 	}	
 }
 
@@ -215,6 +219,7 @@ section svg {
 	margin-right: auto;
 	clear: both;
 }
+
 #contact.h2{
 	text-align: center;
 }
