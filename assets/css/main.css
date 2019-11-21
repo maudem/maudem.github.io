@@ -67,7 +67,7 @@ nav .brand-logo img{
 		font-size: 20px;
 	}
 	.hide-for-small{
-		display: hide;
+		display:none;
 	}
 	.contact-panel {
 		padding: 20px;
